@@ -1,0 +1,445 @@
+body {
+    
+    align-content: center;
+    text-align: center;
+    background-color:aliceblue;
+  
+}
+
+.flexbox-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    height: 400px;
+    background-color: aliceblue;
+    
+}
+
+
+
+
+.flexbox-item {
+    
+    margin:10px;
+    
+   
+}
+
+
+
+#bt1,#bt3{
+   
+   background-color: white;
+   color:#000058;
+   border-radius:20px;
+   border-color: #000058;
+    
+
+}
+
+#bt1:hover,#bt3:hover{
+    
+    color:white;
+    background-color: #000058;
+    border-color: white;
+    
+}
+
+.headingtext { 
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:white;
+    background-color: #000058;
+   
+}
+
+#bt2,#bt4,#insert{
+  
+   background-color:#000058;
+   color:white;
+   border-radius:20px;
+   border-color:white;
+    
+}
+
+#bt2:hover,#bt4:hover,#insert:hover{
+    
+    color:#000058;
+    background-color: white;
+    border-color: #000058;
+    
+}
+
+.pgtxt{  
+    
+    font-size: 25px;
+    color: #000058;
+}
+  
+.container{
+  padding-top: 10px;
+  width:500px;
+  overflow: hidden
+}
+
+.card-header {
+    background-color: #000058;
+    color:white;
+    opacity:0.85;
+}
+.card-body{
+    
+    justify-content: center;
+    background-color: ghostwhite;
+}
+
+.input-group-prepend{
+    
+    padding-right: 5px;
+    justify-content: center;
+    
+}
+
+.input-group-text{
+    width:130px;
+    justify-content: center;
+    background-color: #000058;
+    color:white;
+    opacity: 0.85;
+    
+}
+
+#submitbutton{ 
+    align-self: center;
+    background-color: #000058;
+    color:white;
+    opacity: 0.85;
+    width:60px;
+    margin-right: 90px;
+    margin-left:100px;
+    border-radius: 20px;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+#resetbutton{
+    align-self: left;
+    background-color: #000058;
+    color:white;
+    opacity: 0.85;
+    width:60px;
+    margin-right: 50px;
+    
+    border-radius: 20px;
+}
+
+#reportbutton{ 
+    
+    background-color: #000058;
+    color:white;
+    opacity: 0.85;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: #000058;
+    margin-bottom: 20px;
+
+}
+
+
+#addbutton,#save{
+    align-self: right;
+    background-color: #000058;
+    color:white;
+    opacity: 0.85;
+    width:180px;
+    border-radius: 20px;
+    margin-left: 80px;
+    
+}
+
+#proceed{
+    align-self: center;
+    background-color: #000058;
+    color:white;
+    opacity: 0.85;
+    width:100px;
+    margin-right: 90px;
+    margin-left:100px;
+    border-radius: 20px;
+    font-size: 14px;
+    padding-right: 10px;
+    
+}
+
+
+#submitbutton:hover,#resetbutton:hover,#proceed:hover,#reportbutton:hover{
+    color:#000058;
+    background-color: white;
+    border-color: #000058;
+}
+
+
+.tab{
+float: left;
+}
+
+.tab-2{
+margin-left: 50px
+}
+
+.tab-2 input{
+display: block;margin-bottom: 10px
+}
+tr{
+    transition:all .25s ease-in-out
+}
+
+
+#table{ 
+    
+        margin-top: 1px;
+        margin-left: 5px;
+        background-color: ghostwhite;
+        
+    
+}
+
+#firstrow{
+    
+    background-color: #000058;
+        color:white;
+        opacity: 0.85;
+    
+}
+
+#productsentry{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: flex-start;
+    align-content: flex-start;
+    width:100%;
+    
+}
+
+#bod{
+    
+    width:400px;
+}
+
+#bods{
+    
+  width:120px;
+  margin-top: 80px;
+  float: left;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+    
+  
+    
+}
+
+datalist {
+  display: none;
+}
+
+th{
+    padding: 11.5px;
+
+
+}
+
+#pop,#pops,#pops2,#ncus,#ocus{
+     background-color: #000058;
+    color:white;
+    opacity: 0.85;
+    border-color: #000058;
+    width:35px;
+}
+
+.modal {
+ 
+  float: left;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -40%);
+  
+  
+}
+
+#f1,#f2,#f3,#f4{
+    font-size: 14px;
+}
+
+.modal-header,.modal-footer{
+    background-color: #000058;
+    color: white;
+    opacity: 0.85;
+    
+}
+
+
+.modal-body{
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+    text-align: left;
+    padding-right:45px;
+    padding-left: 45px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    font-size: 14px;
+    
+}
+.close{
+ color: white;
+    opacity: 0.7
+}
+
+.close:hover{
+    opacity: 1;
+    color: white;
+}
+
+.cont{
+    
+    width: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+img
+{
+    max-width:100%;
+    max-height:100%;
+    padding-bottom: 10px;
+    
+}
+
+#headrow{
+    background-color: #000058;
+    color: white;
+}
+
+
+
+.btn-danger{
+    border-radius: 20px;
+    height:35px;
+    width:35px;
+    text-align: center;
+    background-color: #000058;
+    color: white;
+    border-color:white;
+    
+}
+
+.btn-danger:hover{
+    
+    border-radius: 20px;
+    height:35px;
+    width:35px;
+    text-align: center;
+    background-color: white;
+    color: #000058;
+    border-color: #000058;
+}
+
+#latest{
+    
+    background-color: ghostwhite;
+    margin-top: 20px;
+    border-color: #000058;
+    padding: 20px;
+    
+}
+
+
+#ptab{
+    
+    margin-top: 40px;
+    padding-left: 10px;
+    
+   
+}
+
+#rtab{
+    
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: flex-start;
+    align-content: flex-start;
+    width:100%;
+   
+}
+
+#rtab2{
+    text-align: left;
+    background-color: white;
+    
+}
+
+#user_data{
+    background-color: white;
+}
+
+#report{
+    background-color: ghostwhite;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-bottom: 5px;
+    
+    
+}
+
+
+
+#frm{  
+    border: solid #000058 1px;  
+      
+    border-radius: 2px;    
+    background: ghostwhite;  
+    padding: 40px;  
+}  
+#btn,#logout{  
+    color: white;  
+    background: #000058;  
+    padding: 7px;  
+    border-color: #000058;
+    width: 100px;
+    border-radius: 20px;
+}  
+
+#btn:hover,#logout:hover{
+    color: #000058;
+    background:white;
+    
+}
+
+.looggin{
+    
+    font-size: 18px;
+    color: #000058;
+}
+
+
+
+#repdet{
+    
+    padding-left: 15px;
+    
+}
